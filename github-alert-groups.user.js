@@ -5,8 +5,8 @@
 // @include https://github.com/
 // ==/UserScript==
 
-GM_addStyle(".gag_group { border: 1px dotted; padding: 3px; }");
-GM_addStyle(".gag_hider { cursor: pointer; border-bottom: 1px solid; margin-bottom: 1em}");
+GM_addStyle(".gag_group { background-color: #FFFEEB; border: 1px dotted; padding-left: 1em; padding-right: 1em; padding-top: 1em; margin-bottom: 1em; }");
+GM_addStyle(".gag_hider { cursor: pointer; border-bottom: 1px solid; margin-bottom: 1em; font-weight: bold; color:#4183C4}");
 
 // this seems to be necessary for jQuery to be picked up. Sorry.
 var script = document.createElement("script");
